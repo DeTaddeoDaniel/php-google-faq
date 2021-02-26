@@ -38,3 +38,47 @@ a{
 ul{
     list-style: none;
 }
+
+select, option{
+    font-size: 13px;
+}
+
+footer{
+    background-color: lightgrey;
+}
+
+.footer-content{
+    padding: 10px 15px;
+}
+
+.footer-list-item{
+    display: inline;
+}
+
+.footer-list-item a{
+    font-size: 11px;
+    display: inline-block;
+    color: green;
+}
+
+.footer-list-item a::before{
+    content:'*';
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 7px;
+    color: green;
+}
+
+.footer-list-item:first-child a::before{
+    content:'';
+}
+
+.left, .right{
+    display: inline-block;
+}
+
+.dflex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
