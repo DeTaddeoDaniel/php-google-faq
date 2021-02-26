@@ -6,8 +6,8 @@
 }
     
 body{
-    background-color: black;
-    color: gray;
+    background-color: white;
+    color: black;
 }
 
 .container{
@@ -33,6 +33,7 @@ p{
 
 a{
     text-decoration: none;
+    color: #3367d6;;
 }
 
 ul{
@@ -44,7 +45,7 @@ select, option{
 }
 
 footer{
-    background-color: lightgrey;
+    background-color: rgb(245, 245, 245);
 }
 
 .footer-content{
@@ -58,7 +59,7 @@ footer{
 .footer-list-item a{
     font-size: 11px;
     display: inline-block;
-    color: green;
+    color: rgba(61,61,61,.8);
 }
 
 .footer-list-item a::before{
@@ -66,7 +67,7 @@ footer{
     font-size: 11px;
     padding-left: 5px;
     padding-right: 7px;
-    color: green;
+    color: rgba(61,61,61,.8);
 }
 
 .footer-list-item:first-child a::before{
@@ -75,6 +76,10 @@ footer{
 
 .left, .right{
     display: inline-block;
+}
+
+.left{
+    padding-left: 20px;
 }
 
 .dflex-between{
@@ -93,7 +98,7 @@ ol li{
 }
 
 header{
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5);
 }
 
 .header-top{
@@ -121,8 +126,8 @@ header{
     padding-left: 10px;
     font-size: 22px;
     line-height: 24px;
-    text-transform: uppercase;
     display: inline-block;
+    color: #5f6368;
 }
 
 .list-nav{
@@ -141,11 +146,15 @@ header{
     display: block;
 }
 
+.select a{    
+    color: #3367d6;
+}
+
 .list-nav-item.select::after{
     content: '';
     height: 4px;
     width: 100%;
-    background-color: hotpink;
+    background-color: #3367d6;;
     display: block;
 }
 

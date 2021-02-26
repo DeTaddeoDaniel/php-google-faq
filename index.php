@@ -115,7 +115,7 @@
             <div class="content">
                 <div class="left">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" alt="logo google">
-                    <span>privacy e termini</span>
+                    <span>Privacy e termini</span>
                 </div>
                 <div class="right"></div>
             </div>
