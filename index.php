@@ -124,15 +124,20 @@
                         <p><?php echo $text ?></p>
                     <?php } ?>
                 
+                    <!-- lista eventuale -->
                     <?php if(key_exists('liste',$faq)){ ?>
+
+                        <!-- lista 1 -->
                         <ol>
                             
                             <?php foreach($faq['liste'] as $lista1){ ?>
                                 
+                                <!-- testo lista -->
                                 <li>
                                     <?php echo $lista1['text'];?>
                                 </li>
 
+                                <!-- lista 2 -->
                                 <?php if(key_exists('lista',$lista1)){ ?>
                                     
                                     <ol type="a">
@@ -148,7 +153,11 @@
                                 <?php } ?>
 
                             <?php } ?>
+
                         </ol> 
+
+                        <!-- paragrafo -->
+                        <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
                     <?php } ?>
                 
                 </li>
