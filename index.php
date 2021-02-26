@@ -116,15 +116,40 @@
             <ul>
                 <li class="border">
                     
-    
-
+                    <!-- title -->
                     <h2><?php echo  $faq['title']?></h2>
 
+                    <!-- elenco 1 -->
                     <?php foreach($faq['answer'] as $text){?>
                         <p><?php echo $text ?></p>
                     <?php } ?>
                 
-                    <p><?php if(key_exists('liste',$faq)){echo 'aggiungi lista';} ?></p>
+                    <?php if(key_exists('liste',$faq)){ ?>
+                        <ol>
+                            
+                            <?php foreach($faq['liste'] as $lista1){ ?>
+                                
+                                <li>
+                                    <?php echo $lista1['text'];?>
+                                </li>
+
+                                <?php if(key_exists('lista',$lista1)){ ?>
+                                    
+                                    <ol type="a">
+                                        <?php foreach($lista1['lista'] as $lista2){ ?>
+                                                
+                                            <li>
+                                                <?php echo $lista2[0];?>
+                                            </li>
+
+                                        <?php } ?>
+                                       </ol> 
+                                    
+                                <?php } ?>
+
+                            <?php } ?>
+                        </ol> 
+                    <?php } ?>
                 
                 </li>
             </ul>
