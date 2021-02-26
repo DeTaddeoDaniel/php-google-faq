@@ -91,3 +91,71 @@ ol li{
     padding-top: 12px;
     padding-left: 16px;
 }
+
+header{
+    border-bottom: 1px solid orange;
+}
+
+.header-top{
+    height: 50px;
+}
+
+.header-top .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    display: inline-block;
+}
+
+.header-top .left{
+    display: flex;
+    align-items: center;
+}
+
+.header-top img{
+    height: 36px;
+}
+
+.header-top span{
+    padding-left: 10px;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.list-nav{
+    list-style: none;
+}
+
+.list-nav-item:first-child{
+    margin-left: 20px;
+}
+
+.list-nav-item::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+}
+
+.list-nav-item.select::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: hotpink;
+    display: block;
+}
+
+.list-nav-item{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.list-nav-item-link{
+    font-size: 14px;
+    padding-bottom: 6px;
+    color: blueviolet;
+}

@@ -103,11 +103,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Faq google</title>
     <link rel="stylesheet" href="style.css">
     
     </style>
 <body>
+
+    <header>
+
+        <div class="header-top">
+            <div class="content">
+                <div class="left">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" alt="logo google">
+                    <span>privacy e termini</span>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <ul class="list-nav">
+                
+                <li class="list-nav-item">
+                    <a class="list-nav-item-link " href="#">Introduzione</a>
+                </li>
+                
+                <li class="list-nav-item">
+                    <a class="list-nav-item-link " href="#">Norme sulla privacy</a>
+                </li>
+                
+                <li class="list-nav-item">
+                    <a class="list-nav-item-link " href="#">Termini di servizio</a>
+                </li>
+                
+                
+                <li class="list-nav-item">
+                    <a class="list-nav-item-link " href="#">Tecnologie</a>
+                </li>
+                
+                <li class="list-nav-item select">
+                    <a class="list-nav-item-link" href="#">Domande frequenti</a>
+                </li>
+            </ul>
+        </div>
+    </header>
 
     <div class="container">
 
@@ -158,6 +197,7 @@
 
                         <!-- paragrafo -->
                         <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
+
                     <?php } ?>
                 
                 </li>
