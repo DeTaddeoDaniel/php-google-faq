@@ -87,25 +87,28 @@
     </style>
 <body>
 
-    <?php foreach ($faq_list as $faq) { ?>
+    <div class="container">
 
-        <ul>
-            <li class="border">
+        <?php foreach ($faq_list as $faq) { ?>
+
+            <ul>
+                <li class="border">
+                    
+    
+                    <p> </p>
+
+                    <h2><?php echo  $faq['title']?></h2>
+
+                    <?php foreach($faq['answer'] as $text){?>
+                        <p><?php echo $text ?></p>
+                    <?php } ?>
                 
-  
-                <p> </p>
+                </li>
+            </ul>
 
-                <h2><?php echo  $faq['title']?></h2>
+        <?php } ?>
 
-                <?php foreach($faq['answer'] as $text){?>
-                    <p><?php echo $text ?></p>
-                <?php } ?>
-            
-            </li>
-        </ul>
-    <?php } ?>
-
-
+    </div>
 
 </body>
 </html>
